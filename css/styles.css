@@ -64,11 +64,15 @@ header li {
 header ul a:hover,
 header ul a:focus {
   color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 header nav a:hover,
 header nav a:focus {
   border-bottom: 3px solid #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-sitename {
@@ -194,6 +198,8 @@ footer a {
 .portfolio-filter button:focus {
   background: var(--OCEAN, #404bbf);
   color: var(--WHITE, #fff);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* INDEX - BODY SECTION */
@@ -361,6 +367,8 @@ footer a {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   border: 1px solid rgba(244, 244, 253, 1);
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .advantages-icon {
@@ -478,16 +486,22 @@ ul .our-team-icons {
 .footer-icons li:hover,
 .footer-icons li:focus {
   background-color: rgba(49, 208, 170, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-team-icons li:hover,
 .footer-icons li:focus {
   background-color: rgba(64, 75, 191, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon:hover,
 .clients-icon:focus {
   fill: rgba(64, 75, 191, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* HW5 PORTFOLIO TRANSITION UPDATES */
@@ -515,6 +529,8 @@ ul .our-team-icons {
 
 .portfolio-box-img:hover .overlay {
   transform: translatey(0);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay p {
