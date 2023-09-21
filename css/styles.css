@@ -539,3 +539,59 @@ ul .our-team-icons {
   margin: 0;
   font-size: 18px;
 }
+/* MODAL TEST */
+.data-modal {
+  display: flex;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.is-hidden {
+  display: flex;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  visibility: hidden;
+}
+
+.modal-content {
+  margin: auto;
+  position: relative;
+  width: 408px;
+  height: 584px;
+  border-radius: 4px;
+  background-color: rgba(252, 252, 252, 1);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+}
+
+.data-modal-close {
+  color: rgba(46, 47, 66, 1);
+  float: right;
+  font-size: 24px;
+  margin-top: 24px;
+  margin-right: 24px;
+  font-weight: bold;
+  background-color: rgba(231, 233, 252, 1);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid rgba(46, 47, 66, 0.25);
+}
+
+.data-modal-close:hover,
+.data-modal-close:focus {
+  cursor: pointer;
+}
+
+/* ANIMATION */

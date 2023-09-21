@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>HW5</title>
     <!-- Normalizer -->
     <link
       rel="stylesheet"
@@ -42,7 +42,12 @@
     <main>
       <section class="splash-header">
         <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button type="button" class="data-modal-open">Order Service</button>
+        <div class="data-modal is-hidden">
+          <div class="modal-content">
+            <span class="data-modal-close">&times;</span>
+          </div>
+        </div>
       </section>
 
       <section class="what-are-we-doing">
@@ -401,5 +406,6 @@
         </li>
       </ul>
     </footer>
+    <script src="js/modal.js"></script>
   </body>
 </html>
