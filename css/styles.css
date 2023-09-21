@@ -70,9 +70,8 @@ header ul a:focus {
 
 header nav a:hover,
 header nav a:focus {
-  border-bottom: 3px solid #404bbf;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding-bottom: 20px;
+  border-bottom: 4px solid #404bbf;
 }
 
 .header-sitename {
