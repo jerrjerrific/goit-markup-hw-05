@@ -410,9 +410,12 @@ ul .our-team-icons {
   display: inline-flex;
   width: 168px;
   height: 88px;
+  padding: 16px 32px;
   justify-content: center;
   margin-right: 24px;
   fill: rgba(142, 143, 153, 1);
+  border: 1px solid rgba(142, 143, 153, 1);
+  border-radius: 4px;
 }
 
 .customers-icon {
@@ -498,6 +501,8 @@ ul .our-team-icons {
 
 .clients-icon:hover,
 .clients-icon:focus {
+  cursor: pointer;
+  border-color: rgba(64, 75, 191, 1);
   fill: rgba(64, 75, 191, 1);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
